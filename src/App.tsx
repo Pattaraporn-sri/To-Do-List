@@ -9,7 +9,7 @@ type Nametype = {
 };
 
 function App() {
-  const [name, setName] = useState<string>("");
+  const [_, setName] = useState<string>("");
   const [artist, setArtists] = useState<Nametype[]>([]);
 
   const handleAdd = (name: string) => {
